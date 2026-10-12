@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="374" viewBox="0 0 570 374" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="570" height="374" fill="white"/>
+<text x="30" y="38" font-size="20" font-weight="bold" fill="#282828">Con el filtro activo aparecen flechas en los encabezados</text>
+<rect x="30" y="64" width="150" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="105" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Producto</text>
+<polygon points="154,79 170,79 162,93" fill="white"/>
+<rect x="180" y="64" width="120" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="240" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Cantidad</text>
+<polygon points="274,79 290,79 282,93" fill="white"/>
+<rect x="300" y="64" width="120" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="360" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Precio</text>
+<polygon points="394,79 410,79 402,93" fill="white"/>
+<rect x="420" y="64" width="120" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="480" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Total</text>
+<polygon points="514,79 530,79 522,93" fill="white"/>
+<rect x="30" y="110" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="140" font-size="20" fill="#282828" text-anchor="middle">Arroz</text>
+<rect x="180" y="110" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="140" font-size="20" fill="#282828" text-anchor="middle">3</text>
+<rect x="300" y="110" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="140" font-size="20" fill="#282828" text-anchor="middle">2500</text>
+<rect x="420" y="110" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="480" y="140" font-size="20" fill="#282828" text-anchor="middle">7500</text>
+<rect x="30" y="156" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="186" font-size="20" fill="#282828" text-anchor="middle">Frijol</text>
+<rect x="180" y="156" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="186" font-size="20" fill="#282828" text-anchor="middle">2</text>
+<rect x="300" y="156" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="186" font-size="20" fill="#282828" text-anchor="middle">4800</text>
+<rect x="420" y="156" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="480" y="186" font-size="20" fill="#282828" text-anchor="middle">9600</text>
+<rect x="30" y="202" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="232" font-size="20" fill="#282828" text-anchor="middle">Aceite</text>
+<rect x="180" y="202" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="232" font-size="20" fill="#282828" text-anchor="middle">1</text>
+<rect x="300" y="202" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="232" font-size="20" fill="#282828" text-anchor="middle">9500</text>
+<rect x="420" y="202" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="480" y="232" font-size="20" fill="#282828" text-anchor="middle">9500</text>
+<rect x="30" y="248" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="278" font-size="20" fill="#282828" text-anchor="middle">Panela</text>
+<rect x="180" y="248" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="278" font-size="20" fill="#282828" text-anchor="middle">5</text>
+<rect x="300" y="248" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="278" font-size="20" fill="#282828" text-anchor="middle">1800</text>
+<rect x="420" y="248" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="480" y="278" font-size="20" fill="#282828" text-anchor="middle">9000</text>
+<rect x="30" y="294" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="324" font-size="20" fill="#282828" text-anchor="middle">Sal</text>
+<rect x="180" y="294" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="324" font-size="20" fill="#282828" text-anchor="middle">4</text>
+<rect x="300" y="294" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="324" font-size="20" fill="#282828" text-anchor="middle">1200</text>
+<rect x="420" y="294" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="480" y="324" font-size="20" fill="#282828" text-anchor="middle">4800</text>
+</svg>
