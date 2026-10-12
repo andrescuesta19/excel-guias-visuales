@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="476" viewBox="0 0 570 476" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="570" height="476" fill="white"/>
+<text x="30" y="38" font-size="20" font-weight="bold" fill="#282828">La columna D tiene los totales de D2 a D6</text>
+<rect x="30" y="64" width="150" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="105" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Producto</text>
+<rect x="180" y="64" width="120" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="240" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Cantidad</text>
+<rect x="300" y="64" width="120" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="360" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Precio</text>
+<rect x="420" y="64" width="120" height="46" fill="#217346" stroke="#bebebe"/>
+<text x="480" y="94" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Total</text>
+<rect x="30" y="110" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="140" font-size="20" fill="#282828" text-anchor="middle">Arroz</text>
+<rect x="180" y="110" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="140" font-size="20" fill="#282828" text-anchor="middle">3</text>
+<rect x="300" y="110" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="140" font-size="20" fill="#282828" text-anchor="middle">2500</text>
+<rect x="420" y="110" width="120" height="46" fill="#fff3cd" stroke="#bebebe"/>
+<text x="480" y="140" font-size="20" fill="#282828" text-anchor="middle">7500</text>
+<rect x="30" y="156" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="186" font-size="20" fill="#282828" text-anchor="middle">Frijol</text>
+<rect x="180" y="156" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="186" font-size="20" fill="#282828" text-anchor="middle">2</text>
+<rect x="300" y="156" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="186" font-size="20" fill="#282828" text-anchor="middle">4800</text>
+<rect x="420" y="156" width="120" height="46" fill="#fff3cd" stroke="#bebebe"/>
+<text x="480" y="186" font-size="20" fill="#282828" text-anchor="middle">9600</text>
+<rect x="30" y="202" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="232" font-size="20" fill="#282828" text-anchor="middle">Aceite</text>
+<rect x="180" y="202" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="232" font-size="20" fill="#282828" text-anchor="middle">1</text>
+<rect x="300" y="202" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="232" font-size="20" fill="#282828" text-anchor="middle">9500</text>
+<rect x="420" y="202" width="120" height="46" fill="#fff3cd" stroke="#bebebe"/>
+<text x="480" y="232" font-size="20" fill="#282828" text-anchor="middle">9500</text>
+<rect x="30" y="248" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="278" font-size="20" fill="#282828" text-anchor="middle">Panela</text>
+<rect x="180" y="248" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="278" font-size="20" fill="#282828" text-anchor="middle">5</text>
+<rect x="300" y="248" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="278" font-size="20" fill="#282828" text-anchor="middle">1800</text>
+<rect x="420" y="248" width="120" height="46" fill="#fff3cd" stroke="#bebebe"/>
+<text x="480" y="278" font-size="20" fill="#282828" text-anchor="middle">9000</text>
+<rect x="30" y="294" width="150" height="46" fill="white" stroke="#bebebe"/>
+<text x="105" y="324" font-size="20" fill="#282828" text-anchor="middle">Sal</text>
+<rect x="180" y="294" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="240" y="324" font-size="20" fill="#282828" text-anchor="middle">4</text>
+<rect x="300" y="294" width="120" height="46" fill="white" stroke="#bebebe"/>
+<text x="360" y="324" font-size="20" fill="#282828" text-anchor="middle">1200</text>
+<rect x="420" y="294" width="120" height="46" fill="#fff3cd" stroke="#bebebe"/>
+<text x="480" y="324" font-size="20" fill="#282828" text-anchor="middle">4800</text>
+<rect x="30" y="340" width="150" height="46" fill="white" stroke="#bebebe"/>
+<rect x="180" y="340" width="120" height="46" fill="white" stroke="#bebebe"/>
+<rect x="300" y="340" width="120" height="46" fill="white" stroke="#bebebe"/>
+<rect x="420" y="340" width="120" height="46" fill="#d0e8fa" stroke="#bebebe"/>
+<text x="480" y="370" font-size="20" font-weight="bold" fill="#c82828" text-anchor="middle">D7</text>
+<text x="30" y="420" font-size="18" font-weight="bold" fill="#282828">El total final se calcula en D7</text>
+<text x="30" y="448" font-size="18" font-weight="bold" fill="#217346">con la fórmula =SUMA(D2:D6)</text>
+</svg>
