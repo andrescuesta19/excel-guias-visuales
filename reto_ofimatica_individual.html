@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reto Ofimática · Individual · Sábado 17 de octubre</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1f2937; margin: 0; background: #f3f4f6; }
+  .page { background: #fff; max-width: 800px; margin: 18px auto; padding: 36px 42px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; color: #111827; }
+  h2 { font-size: 1.25rem; color: #1d4ed8; border-bottom: 3px solid #1d4ed8; padding-bottom: 6px; margin-top: 0; }
+  .sub { color: #6b7280; margin: 0 0 18px; }
+  .meta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  .meta span { background: #eff6ff; border: 1px solid #bfdbfe; color: #1e40af; border-radius: 999px; padding: 4px 14px; font-size: .85rem; font-weight: 600; }
+  .datos { border: 2px solid #e5e7eb; border-radius: 8px; padding: 14px 18px; margin: 16px 0; }
+  .datos .line { border-bottom: 1px solid #9ca3af; height: 28px; margin: 8px 0; }
+  .label { font-size: .8rem; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; }
+  ol.steps { counter-reset: step; list-style: none; padding: 0; }
+  ol.steps li { counter-increment: step; margin: 12px 0; padding: 12px 14px 12px 58px; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; position: relative; font-size: .98rem; }
+  ol.steps li::before { content: counter(step); position: absolute; left: 14px; top: 10px; width: 30px; height: 30px; border-radius: 50%; background: #1d4ed8; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  kbd { background: #111827; color: #fff; border-radius: 5px; padding: 1px 8px; font-family: Consolas, monospace; font-size: .85em; }
+  code { background: #fef3c7; padding: 1px 6px; border-radius: 4px; font-family: Consolas, monospace; }
+  .tip { background: #ecfdf5; border-left: 4px solid #10b981; padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 14px 0; font-size: .95rem; }
+  .evid { background: #fffbeb; border: 2px dashed #f59e0b; border-radius: 8px; padding: 12px 16px; margin: 16px 0; }
+  .evid strong { color: #92400e; }
+  .points { float: right; background: #1d4ed8; color: #fff; font-weight: 700; border-radius: 8px; padding: 4px 14px; font-size: .9rem; }
+  table.score { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: .95rem; }
+  table.score th, table.score td { border: 1px solid #d1d5db; padding: 10px; text-align: left; }
+  table.score th { background: #1d4ed8; color: #fff; }
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; max-width: none; border-radius: 0; page-break-after: always; padding: 28px 30px; }
+    .page:last-child { page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PORTADA / INSTRUCCIONES -->
+<div class="page">
+  <h1>🏆 Reto Ofimática <span class="points">100 pts</span></h1>
+  <p class="sub">Sábado 17 de octubre · 7:00 – 9:30 a. m. · Trabajo <b>individual</b> (el examen final también es individual)</p>
+  <div class="meta"><span>👤 Individual</span><span>💻 Tu computador</span><span>📖 Puedes usar la guía de repaso y Google</span></div>
+
+  <div class="datos">
+    <span class="label">Nombre completo</span><div class="line"></div>
+    <span class="label">Fecha</span><div class="line"></div>
+  </div>
+
+  <h2>¿Cómo se juega?</h2>
+  <ol class="steps">
+    <li>Lee cada reto y hazlo en el computador, paso a paso.</li>
+    <li>Cuando termines un reto, toma un <b>pantallazo</b> como evidencia (<kbd>Win</kbd> + <kbd>Mayús</kbd> + <kbd>S</kbd>).</li>
+    <li>Pega el pantallazo en tu <b>documento Word del reto</b> (el que descargaste), debajo del reto correspondiente.</li>
+    <li>Si te atascas, busca en la <b>guía de repaso</b>: cada reto te dice en qué pestaña está la ayuda.</li>
+    <li>Al final, guarda tu Word y entrégaselo al profesor.</li>
+  </ol>
+  <div class="tip">💡 <b>Consejo:</b> haz los retos en orden, del 1 al 6. Cada uno te prepara para el siguiente… ¡y para el examen final!</div>
+</div>
+
+<!-- RETO 1 -->
+<div class="page">
+  <h2>Reto 1 · Windows y carpetas <span class="points">15 pts</span></h2>
+  <ol class="steps">
+    <li>Abre el Explorador de archivos con <kbd>Win</kbd> + <kbd>E</kbd>.</li>
+    <li>En <b>Documentos</b>, crea la carpeta <code>Reto_Ofimatica</code> (clic derecho → Nuevo → Carpeta).</li>
+    <li>Dentro de ella crea tres subcarpetas: <code>Word</code>, <code>Excel</code> y <code>PowerPoint</code>.</li>
+    <li>En cada subcarpeta crea un archivo de texto con tu nombre (clic derecho → Nuevo → Documento de texto → escribe tu nombre dentro).</li>
+    <li>Toma el pantallazo mostrando la estructura de carpetas y archivos.</li>
+  </ol>
+  <div class="tip">🔍 <b>Busca en la guía de repaso:</b> pestaña <b>Windows</b> (crear carpetas, Explorador).</div>
+  <div class="evid">📸 <b>Evidencia:</b> pega aquí el pantallazo de tus carpetas en tu documento Word.</div>
+</div>
+
+<!-- RETO 2 -->
+<div class="page">
+  <h2>Reto 2 · PowerPoint <span class="points">15 pts</span></h2>
+  <ol class="steps">
+    <li>Crea una presentación nueva de <b>3 diapositivas</b> sobre “Mi curso de Ofimática”.</li>
+    <li>Diapositiva 1: título + subtítulo con tu nombre.</li>
+    <li>Diapositiva 2: <b>4 viñetas</b> con lo que aprendiste (Windows, Word, Excel…).</li>
+    <li>Diapositiva 3: inserta una <b>imagen</b> (Insertar → Imágenes).</li>
+    <li>Aplica una <b>transición</b> a las diapositivas y una <b>animación</b> a un título.</li>
+    <li>Guarda como <code>MiPresentacion.pptx</code> en la carpeta <code>PowerPoint</code> y toma el pantallazo.</li>
+  </ol>
+  <div class="tip">🔍 <b>Busca en la guía de repaso:</b> pestaña <b>PowerPoint</b> (diapositivas, transiciones, animaciones).</div>
+  <div class="evid">📸 <b>Evidencia:</b> pega aquí el pantallazo de tu presentación en tu documento Word.</div>
+</div>
+
+<!-- RETO 3 -->
+<div class="page">
+  <h2>Reto 3 · Word: formato de texto <span class="points">15 pts</span></h2>
+  <ol class="steps">
+    <li>En Word escribe <b>2 párrafos</b> sobre lo que más te gustó del curso.</li>
+    <li>Ponle un título con el estilo <b>Título 1</b> (pestaña Inicio → Estilos).</li>
+    <li>Justifica los párrafos (<kbd>Ctrl</kbd> + <kbd>J</kbd>) y pon <b>negrita</b> a 3 palabras (<kbd>Ctrl</kbd> + <kbd>N</kbd>).</li>
+    <li>Agrega una <b>lista con viñetas</b> de 4 elementos al final.</li>
+    <li>Guarda como <code>MiTexto.docx</code> en la carpeta <code>Word</code> y toma el pantallazo.</li>
+  </ol>
+  <div class="tip">🔍 <b>Busca en la guía de repaso:</b> pestañas <b>Word I</b> y <b>Word II</b> (estilos, justificado, viñetas).</div>
+  <div class="evid">📸 <b>Evidencia:</b> pega aquí el pantallazo de tu texto con formato en tu documento Word.</div>
+</div>
+
+<!-- RETO 4 -->
+<div class="page">
+  <h2>Reto 4 · Word: tablas <span class="points">15 pts</span></h2>
+  <ol class="steps">
+    <li>En un documento nuevo (<code>MiTabla.docx</code>), inserta una <b>tabla de 4 columnas × 5 filas</b> (Insertar → Tabla).</li>
+    <li>Encabezados: <b>Producto | Cantidad | Precio | Total</b>. Llena las 4 filas con datos inventados.</li>
+    <li>Aplica <b>bordes</b> a toda la tabla (Diseño de tabla → Bordes).</li>
+    <li>Guarda en la carpeta <code>Word</code> y toma el pantallazo de la tabla terminada.</li>
+  </ol>
+  <div class="tip">🔍 <b>Busca en la guía de repaso:</b> pestaña <b>Word II</b> (tablas y bordes).</div>
+  <div class="evid">📸 <b>Evidencia:</b> pega aquí el pantallazo de tu tabla en tu documento Word.</div>
+</div>
+
+<!-- RETO 5 -->
+<div class="page">
+  <h2>Reto 5 · Excel: fórmulas <span class="points">20 pts</span></h2>
+  <ol class="steps">
+    <li>En Excel crea la tabla: columna A <b>Producto</b>, B <b>Cantidad</b>, C <b>Precio</b>, D <b>Total</b>; llena 5 filas con datos.</li>
+    <li>En <b>D2</b> escribe <code>=B2*C2</code> y pulsa <kbd>Enter</kbd>.</li>
+    <li>Arrastra el <b>controlador de relleno</b> (el cuadrito verde de D2) hasta <b>D6</b> para copiar la fórmula.</li>
+    <li>Pon <b>bordes</b> a la tabla y <b>sombreado</b> a los encabezados; ajusta el ancho de las columnas.</li>
+    <li>Guarda como <code>MisVentas.xlsx</code> en la carpeta <code>Excel</code> y toma el pantallazo.</li>
+  </ol>
+  <div class="tip">🔍 <b>Busca en la guía de repaso:</b> pestañas <b>Excel I</b> y <b>Excel II</b> (fórmulas, referencias, controlador de relleno).</div>
+  <div class="evid">📸 <b>Evidencia:</b> pega aquí el pantallazo de tu tabla con las fórmulas en tu documento Word.</div>
+</div>
+
+<!-- RETO 6 -->
+<div class="page">
+  <h2>Reto 6 · Excel: funciones y filtros <span class="points">20 pts</span></h2>
+  <ol class="steps">
+    <li>En <b>D7</b>, debajo de los totales, escribe <code>=SUMA(D2:D6)</code> para el total general.</li>
+    <li>En otras celdas calcula <code>=PROMEDIO(D2:D6)</code>, <code>=MAX(D2:D6)</code> y <code>=MIN(D2:D6)</code>.</li>
+    <li>Activa el <b>filtro</b> con <kbd>Ctrl</kbd> + <kbd>Mayús</kbd> + <kbd>L</kbd> y filtra un producto.</li>
+    <li>Ordena la tabla de <b>mayor a menor</b> por Total (Datos → Ordenar; marca <i>“Mis datos tienen encabezados”</i>).</li>
+    <li>Toma el pantallazo final con funciones, filtro y orden aplicados.</li>
+  </ol>
+  <div class="tip">🔍 <b>Busca en la guía de repaso:</b> pestaña <b>Excel II</b> (SUMA, PROMEDIO, MAX, MIN, ordenar, filtrar).</div>
+  <div class="evid">📸 <b>Evidencia:</b> pega aquí el pantallazo final en tu documento Word.</div>
+</div>
+
+<!-- PUNTAJE -->
+<div class="page">
+  <h1>📊 Mi puntaje</h1>
+  <p class="sub">Marca cada reto cuando lo termines y suma tus puntos.</p>
+  <table class="score">
+    <tr><th>Reto</th><th>Tema</th><th>Puntos</th><th>✔</th></tr>
+    <tr><td>1</td><td>Windows y carpetas</td><td>15</td><td></td></tr>
+    <tr><td>2</td><td>PowerPoint</td><td>15</td><td></td></tr>
+    <tr><td>3</td><td>Word: formato</td><td>15</td><td></td></tr>
+    <tr><td>4</td><td>Word: tablas</td><td>15</td><td></td></tr>
+    <tr><td>5</td><td>Excel: fórmulas</td><td>20</td><td></td></tr>
+    <tr><td>6</td><td>Excel: funciones y filtros</td><td>20</td><td></td></tr>
+    <tr><th colspan="2">TOTAL</th><th>100</th><th></th></tr>
+  </table>
+  <div class="tip">💡 <b>Recuerda:</b> este reto es tu calentamiento. El <b>examen final es individual</b>: 30 preguntas (10 de Windows/PowerPoint, 10 de Word y 10 de Excel). ¡Tú puedes!</div>
+</div>
+
+</body>
+</html>
