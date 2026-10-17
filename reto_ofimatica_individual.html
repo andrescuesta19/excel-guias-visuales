@@ -118,10 +118,19 @@
 <!-- RETO 5 -->
 <div class="page">
   <h2>Reto 5 · Excel: fórmulas <span class="points">20 pts</span></h2>
+  <p>Crea en Excel esta <b>tabla de ventas</b>. Puedes usar los valores de la tabla guía o inventar tus propios productos:</p>
+  <table class="score">
+    <tr><th></th><th>A · Producto</th><th>B · Cantidad</th><th>C · Precio</th><th>D · Total</th></tr>
+    <tr><td><b>2</b></td><td>Cuaderno</td><td>10</td><td>8500</td><td><code>=B2*C2</code></td></tr>
+    <tr><td><b>3</b></td><td>Lápiz</td><td>25</td><td>1200</td><td><code>=B3*C3</code></td></tr>
+    <tr><td><b>4</b></td><td>Borrador</td><td>15</td><td>2000</td><td><code>=B4*C4</code></td></tr>
+    <tr><td><b>5</b></td><td>Regla</td><td>8</td><td>3500</td><td><code>=B5*C5</code></td></tr>
+    <tr><td><b>6</b></td><td>Carpeta</td><td>12</td><td>6000</td><td><code>=B6*C6</code></td></tr>
+  </table>
   <ol class="steps">
-    <li>En Excel crea la tabla: columna A <b>Producto</b>, B <b>Cantidad</b>, C <b>Precio</b>, D <b>Total</b>; llena 5 filas con datos.</li>
-    <li>En <b>D2</b> escribe <code>=B2*C2</code> y pulsa <kbd>Enter</kbd>.</li>
-    <li>Arrastra el <b>controlador de relleno</b> (el cuadrito verde de D2) hasta <b>D6</b> para copiar la fórmula.</li>
+    <li>Crea la tabla con las columnas <b>A: Producto, B: Cantidad, C: Precio, D: Total</b> y llena las filas 2 a 6 con los valores de la tabla guía (o con tus propios datos).</li>
+    <li>En <b>D2</b> escribe <code>=B2*C2</code> y pulsa <kbd>Enter</kbd>: es el total del primer producto (cantidad × precio).</li>
+    <li>Arrastra el <b>controlador de relleno</b> (el cuadrito verde de D2) hasta <b>D6</b> para copiar la fórmula a todos los productos.</li>
     <li>Pon <b>bordes</b> a la tabla y <b>sombreado</b> a los encabezados; ajusta el ancho de las columnas.</li>
     <li>Guarda como <code>MisVentas.xlsx</code> en la carpeta <code>Excel</code> y toma el pantallazo.</li>
   </ol>
@@ -132,6 +141,7 @@
 <!-- RETO 6 -->
 <div class="page">
   <h2>Reto 6 · Excel: funciones, filtros y más <span class="points">20 pts</span></h2>
+  <p>Todo este reto se hace sobre <b>tu tabla de ventas del Reto 5</b> (la columna <b>Total, D2:D6</b>).</p>
   <ol class="steps">
     <li>En <b>D7</b>, debajo de la columna Total, escribe <code>=SUMA(D2:D6)</code> y pulsa <kbd>Enter</kbd>: es el total general de tus ventas.</li>
     <li>En otra celda escribe <code>=PROMEDIO(D2:D6)</code>: el promedio de los totales.</li>
